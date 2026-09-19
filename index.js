@@ -1,6 +1,9 @@
 const http = require('http');
 const { EventEmitter } = require('events');
 const logger = require('./logger');
+const FileManagerPromises = require('./fileOperationsPromises');
+
+const orderStore = new FileManagerPromises('./orders-data');
 
 function computePi() {
     let pi = 3;
@@ -104,6 +107,14 @@ app.orderHandler.on('order:processing', (data) => {
 app.orderHandler.on('order:complete', (data) => {
     const pi = computePi();
     console.log('💰 Заказ #' + data.orderId + ' завершён на сумму ' + data.sum + ' руб. PI = ' + pi);
+    orderStore.createFile(
+        'order-' + data.orderId + '.txt',
+        'sum=' + data.sum + '; pi=' + pi
+    ).then((filePath) => {
+        console.log('Заказ сохранён через промисы: ' + filePath);
+    }).catch((err) => {
+        console.error('Ошибка сохранения заказа:', err.message);
+    });
 });
 
 logger.setupLogger(app);
