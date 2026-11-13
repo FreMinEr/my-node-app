@@ -1,0 +1,95 @@
+Команда: node lab14\task5.js
+Код завершения: 0
+
+Копирование: 1/24 - file_1.txt
+Копирование: 2/24 - file_10.jpg
+Копирование: 3/24 - file_11.png
+Копирование: 4/24 - file_12.gif
+Копирование: 5/24 - file_13.txt
+Копирование: 6/24 - file_14.js
+Копирование: 7/24 - file_15.json
+Копирование: 8/24 - file_16.jpg
+Копирование: 9/24 - file_17.png
+Копирование: 10/24 - file_18.gif
+Копирование: 11/24 - file_19.txt
+Копирование: 12/24 - file_2.js
+Копирование: 13/24 - file_20.js
+Копирование: 14/24 - file_3.json
+Копирование: 15/24 - file_4.jpg
+Копирование: 16/24 - file_5.png
+Копирование: 17/24 - file_6.gif
+Копирование: 18/24 - file_7.txt
+Копирование: 19/24 - file_8.js
+Копирование: 20/24 - file_9.json
+Копирование: 21/24 - folder_1\nested_1.txt
+Копирование: 22/24 - folder_2\nested_2.txt
+Копирование: 23/24 - folder_3\nested_3.txt
+Копирование: 24/24 - manifest.json
+{
+  before: {
+    added: [
+      'file_1.txt',
+      'file_10.jpg',
+      'file_11.png',
+      'file_12.gif',
+      'file_13.txt',
+      'file_14.js',
+      'file_15.json',
+      'file_16.jpg',
+      'file_17.png',
+      'file_18.gif',
+      'file_19.txt',
+      'file_2.js',
+      'file_20.js',
+      'file_3.json',
+      'file_4.jpg',
+      'file_5.png',
+      'file_6.gif',
+      'file_7.txt',
+      'file_8.js',
+      'file_9.json',
+      'folder_1\\nested_1.txt',
+      'folder_2\\nested_2.txt',
+      'folder_3\\nested_3.txt',
+      'manifest.json'
+    ],
+    deleted: [],
+    changed: [],
+    identical: []
+  },
+  after: {
+    added: [],
+    deleted: [],
+    changed: [],
+    identical: [
+      'file_1.txt',
+      'file_10.jpg',
+      'file_11.png',
+      'file_12.gif',
+      'file_13.txt',
+      'file_14.js',
+      'file_15.json',
+      'file_16.jpg',
+      'file_17.png',
+      'file_18.gif',
+      'file_19.txt',
+      'file_2.js',
+      'file_20.js',
+      'file_3.json',
+      'file_4.jpg',
+      'file_5.png',
+      'file_6.gif',
+      'file_7.txt',
+      'file_8.js',
+      'file_9.json',
+      'folder_1\\nested_1.txt',
+      'folder_2\\nested_2.txt',
+      'folder_3\\nested_3.txt',
+      'manifest.json'
+    ]
+  },
+  copied: 24,
+  skipped: 0,
+  streamed: 15,
+  ordinary: 9
+}
