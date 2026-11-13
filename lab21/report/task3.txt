@@ -1,0 +1,15 @@
+Команда: node task3.js
+Код завершения: 0
+
+=== pipe: успешное копирование ===
+Содержимое совпало: true
+=== pipe: ошибка источника ===
+ENOENT; целевой поток destroyed=false
+=== pipeline: успешное копирование ===
+Содержимое совпало: true
+pipeline ENOENT; source.destroyed=true; target.destroyed=true
+=== Цепочка uppercase -> reverse (по строкам) ===
+774 :АППУРГ
+НАВИ КОНЁФРАП :ТНЕДУТС
+SJ.EDON ИКОТОП
+
