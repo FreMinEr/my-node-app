@@ -1,0 +1,22 @@
+const { test } = require('node:test');
+const assert = require('node:assert/strict');
+const { createServer } = require('./app');
+test('HTTP-заголовки, форматы тела и лимит 1 МБ', async t => {
+  const server = createServer().listen(0);
+  t.after(() => new Promise(resolve => server.close(resolve)));
+  const base = `http://localhost:${server.address().port}`;
+  const post = (path, type, body) => fetch(base + path, { method: 'POST', headers: { 'Content-Type': type }, body });
+  assert.equal((await fetch(base + '/unknown')).status, 404);
+  const headers = await fetch(base + '/headers', { headers: { 'User-Agent': 'lab20-test' } });
+  assert.equal(headers.headers.get('x-group'), '477');
+  assert.equal((await headers.json()).headers['user-agent'], 'lab20-test');
+  assert.equal((await (await fetch(base + '/headers/check')).json()).afterRemoval, false);
+  assert.equal((await fetch(base + '/headers/set', { method: 'HEAD' })).headers.get('x-custom'), 'lab20');
+  assert.deepEqual(await (await post('/echo', 'application/json', '{"message":"Привет"}')).json(), { message: 'Привет', group: '477' });
+  assert.equal((await post('/echo', 'application/json', '{')).status, 400);
+  assert.equal(await (await post('/echo', 'text/plain', 'Привет')).text(), 'Привет');
+  const bytes = Buffer.from([0, 1, 255]);
+  assert.deepEqual(Buffer.from(await (await post('/echo', 'application/octet-stream', bytes)).arrayBuffer()), bytes);
+  assert.equal((await (await post('/form', 'application/x-www-form-urlencoded', 'name=%D0%98%D0%B2%D0%B0%D0%BD')).json()).name, 'Иван');
+  assert.equal((await post('/echo', 'text/plain', 'x'.repeat(1024 * 1024 + 1))).status, 413);
+});
