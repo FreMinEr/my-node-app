@@ -1,0 +1,9 @@
+Команда: node task3.js
+Код завершения: 0
+
+[477][connect] Соединение установлено (учебная модель БД)
+[477][query] SELECT * FROM students [ { name: 'Парфёнок Иван', group: '477' } ]
+[477][query] INSERT INTO students { inserted: 1 }
+[477][close] Соединение закрыто
+[477][error] Обработано: Connection timeout
+Без слушателя error возникает исключение: Нет слушателя error

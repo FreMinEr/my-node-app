@@ -1,0 +1,10 @@
+Команда: node task1.js
+Код завершения: 0
+
+[greet] Привет, Иван!
+emit(greet) -> true
+[info] Парфёнок Иван, группа 477
+emit(info) -> true
+[bye] До свидания!
+emit(bye) -> true
+emit(unknown) -> false
