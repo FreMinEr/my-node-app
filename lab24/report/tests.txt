@@ -1,0 +1,44 @@
+Команда: node --test app.test.js
+Код завершения: 0
+
+TAP version 13
+# [SERVICE] Создан пользователь 6af6faa27c43c9af5da0c725; email-уведомление: ИМИТАЦИЯ (не отправлялось)
+# [2026-11-13T11:55:14.075Z] POST /api/users 201 108.6ms
+# [SERVICE] Создан пользователь 6af6faa27c43c9af5da0c726; email-уведомление: ИМИТАЦИЯ (не отправлялось)
+# [2026-11-13T11:55:14.175Z] POST /api/users 201 83.5ms
+# [SERVICE] Создан пользователь 6af6faa27c43c9af5da0c727; email-уведомление: ИМИТАЦИЯ (не отправлялось)
+# [2026-11-13T11:55:14.260Z] POST /api/users 201 82.0ms
+# [2026-11-13T11:55:14.269Z] POST /api/users 409 3.6ms
+# [2026-11-13T11:55:14.276Z] POST /api/users 400 3.4ms
+# [2026-11-13T11:55:14.280Z] GET /api/users/invalid-id 404 0.8ms
+# [2026-11-13T11:55:14.284Z] GET /api/users 400 1.8ms
+# [2026-11-13T11:55:14.287Z] GET /api/users 400 1.1ms
+# [2026-11-13T11:55:14.292Z] GET /api/users 400 2.2ms
+# [2026-11-13T11:55:14.296Z] GET /api/users 400 1.3ms
+# [2026-11-13T11:55:14.299Z] GET /api/users 400 1.1ms
+# [2026-11-13T11:55:14.319Z] GET /api/users 200 18.1ms
+# [SERVICE] Обновлен пользователь 6af6faa27c43c9af5da0c725
+# [2026-11-13T11:55:14.327Z] PUT /api/users/6af6faa27c43c9af5da0c725 200 5.6ms
+# [2026-11-13T11:55:14.332Z] PUT /api/users/6af6faa27c43c9af5da0c725 409 3.0ms
+# [2026-11-13T11:55:14.337Z] GET /api/users/search 200 4.0ms
+# [2026-11-13T11:55:14.341Z] GET /api/users/stats 200 2.4ms
+# [2026-11-13T11:55:14.344Z] GET /api/users/export 200 1.3ms
+# [SERVICE] Удален пользователь 6af6faa27c43c9af5da0c725
+# [2026-11-13T11:55:14.353Z] DELETE /api/users/6af6faa27c43c9af5da0c725 200 2.2ms
+# [2026-11-13T11:55:14.355Z] GET /api/users/6af6faa27c43c9af5da0c725 404 1.2ms
+# Проверены: 201, 400, 404, 409; фильтры, сортировка, поиск, stats, CSV и скрытие хэша.
+# Subtest: REST API на реальной MongoDB: CRUD, уникальность, фильтры, поиск и CSV
+ok 1 - REST API на реальной MongoDB: CRUD, уникальность, фильтры, поиск и CSV
+  ---
+  duration_ms: 522.9792
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1217.6345
