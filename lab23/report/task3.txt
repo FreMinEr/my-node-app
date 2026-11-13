@@ -1,0 +1,81 @@
+Команда: node --expose-gc task3.js
+Код завершения: 0
+
+Генерация 1000000 документов порциями по 1000
+Создано: 100000
+Создано: 200000
+Создано: 300000
+Создано: 400000
+Создано: 500000
+Создано: 600000
+Создано: 700000
+Создано: 800000
+Создано: 900000
+Создано: 1000000
+cursor.next(): {
+  _id: new ObjectId('6af6fa281038086fd14db2bc'),
+  name: 'Иван 0',
+  email: 'student0@example.test',
+  group_name: '477',
+  course: 1,
+  grade: 2
+}
+Курсор: 1000000; 5908 мс; наблюдаемый прирост heap: 14.31 МБ
+toArray: 1000000; прирост heap: 814.95 МБ
+Средний балл: [
+  { _id: '477', average: 3.4999138101723797, count: 333334 },
+  { _id: '478', average: 3.49991074991075, count: 333333 },
+  { _id: '479', average: 3.49991452991453, count: 333333 }
+]
+По курсам: [
+  { _id: 1, count: 250000 },
+  { _id: 2, count: 250000 },
+  { _id: 3, count: 250000 },
+  { _id: 4, count: 250000 }
+]
+Топ-10: [
+  { name: 'Мария 601', grade: 5 },
+  { name: 'Мария 1805', grade: 5 },
+  { name: 'Мария 2407', grade: 5 },
+  { name: 'Иван 300', grade: 5 },
+  { name: 'Иван 902', grade: 5 },
+  { name: 'Иван 2106', grade: 5 },
+  { name: 'Мария 3009', grade: 5 },
+  { name: 'Иван 2708', grade: 5 },
+  { name: 'Иван 1504', grade: 5 },
+  { name: 'Мария 1203', grade: 5 }
+]
+JOIN: [
+  { _id: '479', count: 333333, group: [ [Object] ] },
+  { _id: '477', count: 333334, group: [ [Object] ] },
+  { _id: '478', count: 333333, group: [ [Object] ] }
+]
+Без индекса { ms: 1170, docsExamined: 1000000, returned: 12181 }
+С индексом { ms: 55, docsExamined: 12181, returned: 12181 }
+Текстовый поиск: [
+  {
+    _id: new ObjectId('6af6fa2f1038086fd15b1c4c'),
+    name: 'Иван 878992',
+    score: 0.75
+  },
+  {
+    _id: new ObjectId('6af6fa2c1038086fd154cf0e'),
+    name: 'Иван 466002',
+    score: 0.75
+  },
+  {
+    _id: new ObjectId('6af6fa2f1038086fd15a4568'),
+    name: 'Иван 823980',
+    score: 0.75
+  },
+  {
+    _id: new ObjectId('6af6fa2e1038086fd1597b92'),
+    name: 'Иван 772310',
+    score: 0.75
+  },
+  {
+    _id: new ObjectId('6af6fa2c1038086fd155854e'),
+    name: 'Иван 512658',
+    score: 0.75
+  }
+]

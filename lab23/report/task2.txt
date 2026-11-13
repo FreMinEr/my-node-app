@@ -1,0 +1,143 @@
+Команда: node task2.js
+Код завершения: 0
+
+insertedId: new ObjectId('6af6fa27b943a01cfaea25b6')
+insertedIds: {
+  '0': new ObjectId('6af6fa27b943a01cfaea25b7'),
+  '1': new ObjectId('6af6fa27b943a01cfaea25b8'),
+  '2': new ObjectId('6af6fa27b943a01cfaea25b9')
+}
+Все документы текущего запуска: [
+  {
+    _id: new ObjectId('6af6fa27b943a01cfaea25b6'),
+    name: 'Парфёнок Иван',
+    group_name: '477',
+    course: 2,
+    grade: 4.5,
+    created_at: 2026-11-13T11:53:11.821Z,
+    lab23_run: '39a9c295-dee2-45a4-82da-e2e5d2401c65'
+  },
+  {
+    _id: new ObjectId('6af6fa27b943a01cfaea25b7'),
+    name: 'Мария',
+    group_name: '477',
+    course: 2,
+    grade: 3.8,
+    created_at: 2026-11-13T11:53:11.824Z,
+    lab23_run: '39a9c295-dee2-45a4-82da-e2e5d2401c65'
+  },
+  {
+    _id: new ObjectId('6af6fa27b943a01cfaea25b8'),
+    name: 'Петр',
+    group_name: '477',
+    course: 2,
+    grade: 4.2,
+    created_at: 2026-11-13T11:53:11.824Z,
+    lab23_run: '39a9c295-dee2-45a4-82da-e2e5d2401c65'
+  },
+  {
+    _id: new ObjectId('6af6fa27b943a01cfaea25b9'),
+    name: 'Анна',
+    group_name: '477',
+    course: 2,
+    grade: 2.5,
+    created_at: 2026-11-13T11:53:11.824Z,
+    lab23_run: '39a9c295-dee2-45a4-82da-e2e5d2401c65'
+  }
+]
+Группа, сортировка: [
+  {
+    _id: new ObjectId('6af6fa27b943a01cfaea25b6'),
+    name: 'Парфёнок Иван',
+    group_name: '477',
+    course: 2,
+    grade: 4.5,
+    created_at: 2026-11-13T11:53:11.821Z,
+    lab23_run: '39a9c295-dee2-45a4-82da-e2e5d2401c65'
+  },
+  {
+    _id: new ObjectId('6af6fa27b943a01cfaea25b8'),
+    name: 'Петр',
+    group_name: '477',
+    course: 2,
+    grade: 4.2,
+    created_at: 2026-11-13T11:53:11.824Z,
+    lab23_run: '39a9c295-dee2-45a4-82da-e2e5d2401c65'
+  },
+  {
+    _id: new ObjectId('6af6fa27b943a01cfaea25b7'),
+    name: 'Мария',
+    group_name: '477',
+    course: 2,
+    grade: 3.8,
+    created_at: 2026-11-13T11:53:11.824Z,
+    lab23_run: '39a9c295-dee2-45a4-82da-e2e5d2401c65'
+  },
+  {
+    _id: new ObjectId('6af6fa27b943a01cfaea25b9'),
+    name: 'Анна',
+    group_name: '477',
+    course: 2,
+    grade: 2.5,
+    created_at: 2026-11-13T11:53:11.824Z,
+    lab23_run: '39a9c295-dee2-45a4-82da-e2e5d2401c65'
+  }
+]
+Пагинация: [
+  {
+    _id: new ObjectId('6af6fa27b943a01cfaea25b7'),
+    name: 'Мария',
+    group_name: '477',
+    course: 2,
+    grade: 3.8,
+    created_at: 2026-11-13T11:53:11.824Z,
+    lab23_run: '39a9c295-dee2-45a4-82da-e2e5d2401c65'
+  },
+  {
+    _id: new ObjectId('6af6fa27b943a01cfaea25b8'),
+    name: 'Петр',
+    group_name: '477',
+    course: 2,
+    grade: 4.2,
+    created_at: 2026-11-13T11:53:11.824Z,
+    lab23_run: '39a9c295-dee2-45a4-82da-e2e5d2401c65'
+  }
+]
+findOne: {
+  _id: new ObjectId('6af6fa27b943a01cfaea25b6'),
+  name: 'Парфёнок Иван',
+  group_name: '477',
+  course: 2,
+  grade: 4.5,
+  created_at: 2026-11-13T11:53:11.821Z,
+  lab23_run: '39a9c295-dee2-45a4-82da-e2e5d2401c65'
+}
+Проекция: [
+  { name: 'Парфёнок Иван', grade: 4.5 },
+  { name: 'Мария', grade: 3.8 },
+  { name: 'Петр', grade: 4.2 },
+  { name: 'Анна', grade: 2.5 }
+]
+updateOne: {
+  acknowledged: true,
+  modifiedCount: 1,
+  upsertedId: null,
+  upsertedCount: 0,
+  matchedCount: 1
+}
+Повторное значение: {
+  acknowledged: true,
+  modifiedCount: 0,
+  upsertedId: null,
+  upsertedCount: 0,
+  matchedCount: 1
+}
+updateMany: {
+  acknowledged: true,
+  modifiedCount: 4,
+  upsertedId: null,
+  upsertedCount: 0,
+  matchedCount: 4
+}
+deleteOne: { acknowledged: true, deletedCount: 1 }
+deleteMany: { acknowledged: true, deletedCount: 1 }

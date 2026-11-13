@@ -1,0 +1,5 @@
+Команда: node task1.js
+Код завершения: 1
+
+=== Короткоживущий MongoClient, maxPoolSize=1 ===
+MongoServerSelectionError: Ошибка MongoDB
