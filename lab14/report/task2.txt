@@ -1,0 +1,50 @@
+Команда: node lab14\task2.js
+Код завершения: 0
+
+Исходная структура project_17:
+📁 data
+  📄 info.txt
+  📁 input
+    📄 info.txt
+  📁 output
+    📄 info.txt
+📄 info.txt
+📁 src
+  📁 components
+    📁 1
+      📄 info.txt
+    📁 2
+      📄 info.txt
+    📁 3
+      📄 info.txt
+    📄 info.txt
+  📄 info.txt
+  📁 modules
+    📄 info.txt
+  📁 utils
+    📄 info.txt
+📁 temp
+  📄 info.txt
+
+Обновленная структура:
+📁 data
+  📄 info.txt
+  📁 input
+    📄 info.txt
+  📁 results
+    📄 info.txt
+📄 info.txt
+📁 src
+  📁 components
+    📁 1
+      📄 info.txt
+    📁 2
+      📄 info.txt
+    📁 3
+      📄 info.txt
+    📄 info.txt
+  📄 info.txt
+  📁 modules
+    📄 info.txt
+  📁 utils
+    📄 info.txt

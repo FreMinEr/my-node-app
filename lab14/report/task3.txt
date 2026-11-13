@@ -1,0 +1,145 @@
+Команда: node lab14\task3.js .
+Код завершения: 0
+
+{
+  "directory": ".",
+  "variant": 17,
+  "fileCount": 13,
+  "directoryCount": 12,
+  "bytes": 795,
+  "kilobytes": 0.7763671875,
+  "megabytes": 0.0007581710815429688,
+  "byExtension": {
+    ".json": [
+      {
+        "path": "lab14\\student.json",
+        "size": 221,
+        "modified": 1794569220163.5227
+      }
+    ],
+    ".txt": [
+      {
+        "path": "project_17\\data\\info.txt",
+        "size": 13,
+        "modified": 1794570777726.4983
+      },
+      {
+        "path": "project_17\\data\\input\\info.txt",
+        "size": 28,
+        "modified": 1794570777727.4958
+      },
+      {
+        "path": "project_17\\data\\results\\info.txt",
+        "size": 21,
+        "modified": 1794570777729.4932
+      },
+      {
+        "path": "project_17\\info.txt",
+        "size": 28,
+        "modified": 1794570777719.4907
+      },
+      {
+        "path": "project_17\\src\\components\\1\\info.txt",
+        "size": 21,
+        "modified": 1794570777733.4915
+      },
+      {
+        "path": "project_17\\src\\components\\2\\info.txt",
+        "size": 21,
+        "modified": 1794570777734.4944
+      },
+      {
+        "path": "project_17\\src\\components\\3\\info.txt",
+        "size": 21,
+        "modified": 1794570777736.4912
+      },
+      {
+        "path": "project_17\\src\\components\\info.txt",
+        "size": 21,
+        "modified": 1794570777723.4995
+      },
+      {
+        "path": "project_17\\src\\info.txt",
+        "size": 24,
+        "modified": 1794570777721.49
+      },
+      {
+        "path": "project_17\\src\\modules\\info.txt",
+        "size": 13,
+        "modified": 1794570777722.491
+      },
+      {
+        "path": "project_17\\src\\utils\\info.txt",
+        "size": 46,
+        "modified": 1794570777725.502
+      },
+      {
+        "path": "student_17.txt",
+        "size": 317,
+        "modified": 1794570777618.217
+      }
+    ]
+  },
+  "smallest": [
+    {
+      "path": "project_17\\data\\info.txt",
+      "size": 13,
+      "modified": 1794570777726.4983
+    },
+    {
+      "path": "project_17\\src\\modules\\info.txt",
+      "size": 13,
+      "modified": 1794570777722.491
+    },
+    {
+      "path": "project_17\\data\\results\\info.txt",
+      "size": 21,
+      "modified": 1794570777729.4932
+    },
+    {
+      "path": "project_17\\src\\components\\1\\info.txt",
+      "size": 21,
+      "modified": 1794570777733.4915
+    },
+    {
+      "path": "project_17\\src\\components\\2\\info.txt",
+      "size": 21,
+      "modified": 1794570777734.4944
+    }
+  ],
+  "largest": [
+    {
+      "path": "student_17.txt",
+      "size": 317,
+      "modified": 1794570777618.217
+    },
+    {
+      "path": "lab14\\student.json",
+      "size": 221,
+      "modified": 1794569220163.5227
+    },
+    {
+      "path": "project_17\\src\\utils\\info.txt",
+      "size": 46,
+      "modified": 1794570777725.502
+    },
+    {
+      "path": "project_17\\info.txt",
+      "size": 28,
+      "modified": 1794570777719.4907
+    },
+    {
+      "path": "project_17\\data\\input\\info.txt",
+      "size": 28,
+      "modified": 1794570777727.4958
+    }
+  ],
+  "matchingVariant": [
+    {
+      "path": "student_17.txt",
+      "size": 317,
+      "modified": 1794570777618.217
+    }
+  ]
+}
+Отчет сохранен: report_17.json
