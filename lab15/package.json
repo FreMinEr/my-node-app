@@ -1,0 +1,1 @@
+{"name":"lab15-koa","version":"1.0.0","private":true,"scripts":{"start":"node task3.js","test":"node --test"},"dependencies":{"@koa/router":"^15.7.1","koa":"^3.3.0","koa-bodyparser":"^4.4.1"}}
