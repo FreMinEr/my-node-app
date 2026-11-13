@@ -1,0 +1,4 @@
+Команда: node lab17\task2.js generate --type unknown
+Код завершения: 1
+
+error: option '-t, --type <type>' argument 'unknown' is invalid. Allowed choices are html, pdf, json, csv.

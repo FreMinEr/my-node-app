@@ -1,0 +1,13 @@
+Команда: node lab17\task3.js init --name demo-flags --type cli --typescript
+Код завершения: 0
+
+Проект "demo-flags" инициализирован:
+{
+  "name": "demo-flags",
+  "type": "cli",
+  "features": [
+    "typescript"
+  ],
+  "git": false,
+  "group": "477"
+}

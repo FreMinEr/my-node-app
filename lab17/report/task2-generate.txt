@@ -1,0 +1,5 @@
+Команда: node lab17\task2.js generate --type json --verbose
+Код завершения: 0
+
+[VERBOSE] Генерация json: C:\Users\YOLANG~1\AppData\Local\Temp\labs-report-irfEui\output.json
+Отчет сохранен: C:\Users\YOLANG~1\AppData\Local\Temp\labs-report-irfEui\output.json

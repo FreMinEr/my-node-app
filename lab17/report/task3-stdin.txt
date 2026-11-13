@@ -1,0 +1,11 @@
+Команда: node lab17\task3.js init --type web
+Код завершения: 0
+
+Проект "demo-stdin" инициализирован:
+{
+  "name": "demo-stdin",
+  "type": "web",
+  "features": [],
+  "git": false,
+  "group": "477"
+}

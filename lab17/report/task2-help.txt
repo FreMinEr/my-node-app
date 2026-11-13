@@ -1,0 +1,16 @@
+Команда: node lab17\task2.js --help
+Код завершения: 0
+
+Usage: my-cli [options] [command]
+
+CLI-приложение для лабораторной работы №17
+
+Options:
+  -V, --version       output the version number
+  -v, --verbose       Подробный вывод
+  -h, --help          display help for command
+
+Commands:
+  generate [options]
+  convert [options]
+  help [command]      display help for command

@@ -1,0 +1,4 @@
+Команда: node lab17\task2.js generate --dry-run
+Код завершения: 0
+
+[DRY-RUN] Тип: html; файл: C:\Users\YOLANG~1\AppData\Local\Temp\labs-report-irfEui\output.html. Запись не выполнена.
