@@ -1,0 +1,1 @@
+{"name":"lab22-mysql","version":"1.0.0","private":true,"scripts":{"task1":"node task1.js","task2":"node task2.js","task3":"node --expose-gc task3.js"},"dependencies":{"dotenv":"^18.0.10","mysql2":"^3.24.6"}}
