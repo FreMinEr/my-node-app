@@ -1,0 +1,8 @@
+{
+  "name": "lab14-filesystem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Лабораторная работа №14: файловая система Node.js",
+  "type": "commonjs",
+  "dependencies": { "archiver": "^7.0.1" }
+}

@@ -10,3 +10,13 @@ test-data-hybrid/
 perf-data/
 orders-data/
 .DS_Store
+student_*.txt
+project_*/
+report_*.json
+data_*.txt
+processed_*.txt
+filtered_*.txt
+source_*/
+backup_*/
+backup_*.zip
+sync_report_*.txt
